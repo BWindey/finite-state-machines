@@ -1,5 +1,5 @@
-# Finite State Machine
-This repository holds a small implementation for FSM's.
+# Deterministic Finite State Machine
+This repository holds a small implementation for deterministic FSM's.
 It tries to keep evaluation fast by storing the transitions in a 2D table like
 this:
 |    | I0 | I1 | I2 | ... |
@@ -38,6 +38,7 @@ Float '-1e3' is valid: true.
 
 ### Float string checker
 ![Diagram of Float-checking FSM](./media/diagram_float_checking.png)
+
 This relatively small FSM can check the validity of a floating point number.
 You can find the implementation inside
 [./examples/check_float.c3](./examples/check_float.c3).
